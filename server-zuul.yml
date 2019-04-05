@@ -1,0 +1,16 @@
+#lee del cliente student-service 
+zuul:
+   prefix: /app
+   routes:
+      student:
+         url: http://localhost:8090
+   
+      clientenodejs:
+         url: http://localhost:5000
+         
+         
+
+#para habilitar Ribbon
+ribbon:
+   eureka:
+      enabled: true
