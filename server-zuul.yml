@@ -14,3 +14,5 @@ zuul:
 ribbon:
    eureka:
       enabled: true
+server:
+   port: 8080
