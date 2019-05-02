@@ -10,8 +10,8 @@ zuul:
          path: /persona-api/**
          service-id: PERSONA-SERVICE
    
-      clientenodejs:
-         url: http://localhost:5000
+#      clientenodejs:
+#         url: http://localhost:5000
          
          
 
