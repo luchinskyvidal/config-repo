@@ -10,8 +10,9 @@ zuul:
          path: /persona-api/**
          service-id: PERSONA-SERVICE
    
-#      clientenodejs:
-#         url: http://localhost:5000
+      cyprut:
+         path: /cyp-validar-rut/**
+         url: http://localhost:5000
          
          
 
